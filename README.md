@@ -32,19 +32,19 @@ Thanks to [InitialState](https://medium.com/initial-state/how-to-use-a-soil-mois
 #### Updating Python
 Check what Python version you have, if this says <3.9 follow the next 2 steps.
 
-`$ python3 --version`
+```$ python3 --version```
 
 This general purpose command for updating apt (package manager for Ubuntu and Raspbian).
 
-`$ sudo apt-get update`
+```$ sudo apt-get update```
 
 This updates to the latest version of Python. Change the 3.9 if there is a newer version.
 
-`$ sudo apt-get install python3.9`
+```$ sudo apt-get install python3.9```
 
 Updates the package manager for Python (used for downloading libraries).
 
-`python3 -m pip install --upgrade pip`
+```python3 -m pip install --upgrade pip```
 
 #### Installing libraries
 Run these commands to install the libraries
@@ -68,14 +68,14 @@ The figure down below shows how to connect the sensors. The left one is for mois
 #### Configure the to get the data
 We need to access the I2C to get data from the sensors. The commands to do that are: 
 
-`$ sudo raspi-config`
+```$ sudo raspi-config```
 
 ![[Pasted image 20211126114024.png]]
 Select the fifth option `5 Interfacing Options` then `P5 I2C` and click `<YES>`. You have to reboot for the changes to take into effect.
 
 To check if the setting is correct, you can write the following command:
 
-`$ sudo i2cdetect -y 1`
+```$ sudo i2cdetect -y 1```
 
 This should prompt you to a screen that looks like this: 
 ![[Pasted image 20211126114243.png]]
