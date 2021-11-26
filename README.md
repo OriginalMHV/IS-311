@@ -29,20 +29,24 @@ Thanks to [InitialState](https://medium.com/initial-state/how-to-use-a-soil-mois
 
 
 ## Python setup
-##### Updating Python
+#### Updating Python
 Check what Python version you have, if this says <3.9 follow the next 2 steps.
+
 `$ python3 --version`
 
 This general purpose command for updating apt (package manager for Ubuntu and Raspbian).
+
 `$ sudo apt-get update`
 
 This updates to the latest version of Python. Change the 3.9 if there is a newer version.
+
 `$ sudo apt-get install python3.9`
 
 Updates the package manager for Python (used for downloading libraries).
+
 `python3 -m pip install --upgrade pip`
 
-##### Installing libraries
+#### Installing libraries
 Run these commands to install the libraries
 ```
 $ sudo pip3 install adafruit-blinka
@@ -56,12 +60,12 @@ $ sudo pip3 install ISStreamer
 
 
 ## Raspberry Pi 3 setup
-##### Setup the sensors
+#### Setup the sensors
 The figure down below shows how to connect the sensors. The left one is for moisture sensor and the right is for ambient light. The orientation is IO should be phasing down.
 ![[Pasted image 20211126113646.png]]
 
 
-##### Configure the to get the data
+#### Configure the to get the data
 We need to access the I2C to get data from the sensors. The commands to do that are: 
 `$ sudo raspi-config`
 ![[Pasted image 20211126114024.png]]
@@ -80,7 +84,7 @@ This requires that you either buy InitialState or have 7-day trial available and
 This prompt you to create an `Access Keys` that should start with `ist-` and a lot of random characters. After configuring the script with your own "Bucket key" and running the script, it should pop-up a Bucket at the left menu. If you click that Bucket, it should look like this: 
 ![[Pasted image 20211126115619.png]]
 
-##### Changing the appearance 
+#### Changing the appearance 
 If you don't like the line, you could always change it to something more fun, such as: 
 ![[Pasted image 20211126115720.png]]
 This is done by right-clicking the *tile* and choosing edit tile. if you want it to look the same, go to *Tile Type* and change it to *Gauge Chart*, and then change the *Gauge Style* to *Liquid or Thermometer* Here is the settings used:
