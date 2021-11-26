@@ -51,7 +51,7 @@ $ sudo apt-get install python3.9
 Updates the package manager for Python (used for downloading libraries).
 
 ```
-python3 -m pip install --upgrade pip
+$ python3 -m pip install --upgrade pip
 ```
 
 #### Installing libraries
