@@ -1,5 +1,5 @@
 # IS-311 : Plants and sensors
-![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![Raspberry Pi](https://img.shields.io/badge/-RaspberryPi-C51A4A?style=for-the-badge&logo=Raspberry-Pi)
+![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![Raspberry Pi](https://img.shields.io/badge/-RaspberryPi-C51A4A?style=for-the-badge&logo=Raspberry-Pi) ![Made with love in Norway](https://madewithlove.now.sh/no?heart=true&template=for-the-badge&text=Norway)
 
 Welcome to a small Raspberry Pi project that was part of the IS-311 course. This guide will show you step by step how to configure your Raspberry Pi to get data inside a IoT dashboard. 
 
@@ -67,12 +67,16 @@ The figure down below shows how to connect the sensors. The left one is for mois
 
 #### Configure the to get the data
 We need to access the I2C to get data from the sensors. The commands to do that are: 
+
 `$ sudo raspi-config`
+
 ![[Pasted image 20211126114024.png]]
 Select the fifth option `5 Interfacing Options` then `P5 I2C` and click `<YES>`. You have to reboot for the changes to take into effect.
 
-To check if the setting is correct, you can write the following command
+To check if the setting is correct, you can write the following command:
+
 `$ sudo i2cdetect -y 1`
+
 This should prompt you to a screen that looks like this: 
 ![[Pasted image 20211126114243.png]]
 If it does not show up, try to reconfigure or re-seat the sensor connectors. If it shows `0X76 OR 0X77 OR 0X38` it is correct and you can continue. 
