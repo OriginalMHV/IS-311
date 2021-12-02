@@ -15,7 +15,7 @@ ACCESS_KEY = "ENTER KEY HERE"
 MINUTES_BETWEEN_READS = 0.1
 # ---------------------------------
 
-# ------- Database Connection ----
+# ------- Database enviroment ----
 database_host="localhost"
 database_name="plantsiotdb"
 database_user="root"
