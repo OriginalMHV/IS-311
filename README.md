@@ -27,8 +27,8 @@ Thanks to [InitialState](https://medium.com/initial-state/how-to-use-a-soil-mois
 | JST PH 4 pin FEMALE                       |
 | InitialState Subscription                 |
 
-## Python setup
-#### Updating Python
+# Python setup
+## Updating Python
 Check what Python version you have, if this says <3.9 follow the next 2 steps.
 
 ```
@@ -53,7 +53,7 @@ Updates the package manager for Python (used for downloading libraries).
 $ python3 -m pip install --upgrade pip
 ```
 
-#### Installing libraries
+## Installing libraries
 Run these commands to install the libraries
 ```
 $ sudo pip3 install adafruit-blinka
@@ -65,14 +65,14 @@ $ sudo pip3 install adafruit-circuitpython-bh1750
 $ sudo pip3 install ISStreamer
 ```
 
-## Raspberry Pi 3 setup
-#### Setup the sensors
+# Raspberry Pi 3 setup
+## Setup the sensors
 The figure down below shows how to connect the sensors. The left one is for moisture sensor and the right is for ambient light. The orientation is IO should be phasing down.
 
 ![C__Users_micha_My Drive_ObsidianMD_Pasted image 20211126113646](https://user-images.githubusercontent.com/60610137/144413873-417f27e1-9f8c-45d9-8969-9c2183a98487.png)
 
 
-### Configure the to get the data
+## Configure the to get the data
 We need to access the I2C to get data from the sensors. The commands to do that are: 
 
 ```
@@ -95,7 +95,7 @@ This should prompt you to a screen that looks like this:
 
 If it does not show up, try to reconfigure or re-seat the sensor connectors. If it shows `0X76 OR 0X77 OR 0X38` it is correct and you can continue. 
 
-### Setup the database
+## Setup the database
 This is needed if store the data locally. Use the following commands in the terminal:
 ```
 sudo apt install mariadb-server
@@ -125,17 +125,18 @@ This prompt you to create an `Access Keys` that should start with `ist-` and a l
 ![C__Users_micha_My Drive_ObsidianMD_Pasted image 20211126115619](https://user-images.githubusercontent.com/60610137/144414208-bcec8fd4-0a0c-463a-be67-b387bd3ad75b.png)
 
 
-### Changing the appearance 
+## Changing the appearance 
 If you don't like the line, you could always change it to something more fun, such as: 
 
 ![C__Users_micha_My Drive_ObsidianMD_Pasted image 20211202122535](https://user-images.githubusercontent.com/60610137/144414298-7021263f-8204-4dd9-9a14-c9e4d50e025d.png)
 
-This is done by right-clicking the *tile* and choosing edit tile. if you want it to look the same, go to *Tile Type* and change it to *Gauge Chart*, and then change the *Gauge Style* to *Liquid or Thermometer* Here is the settings used:
-Moisture
+This is done by right-clicking the *tile* and choosing edit tile. if you want it to look the same, go to *Tile Type* and change it to *Gauge Chart*, and then change the *Gauge Style* to *Liquid or Thermometer*. Here is the settings used for this project:
+
+**Moisture**
 
 ![C__Users_micha_My Drive_ObsidianMD_Pasted image 20211126115835](https://user-images.githubusercontent.com/60610137/144414390-e6c9810e-8dea-4a44-b904-5f6d778cfe72.png)
 
-Temperature
+**Temperature**
 
 ![C__Users_micha_My Drive_ObsidianMD_Pasted image 20211126115853](https://user-images.githubusercontent.com/60610137/144414407-0199fff1-dcd8-4867-9060-e4eee25c49be.png)
 
