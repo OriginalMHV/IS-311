@@ -115,12 +115,7 @@ You can now run the SQL-script that is included in the repository (plantsiodb.sq
 
 
 ## InitialState setup
-This requires that you either buy InitialState or have 7-day trial available and created an account. When you are at the frontage of the app, you need to click in the top right and then click my settings. 
-
-![C__Users_micha_My Drive_ObsidianMD_Pasted image 20211126114855](https://user-images.githubusercontent.com/60610137/144414176-044b4e7f-bdf4-465c-99bc-74bf721ba5f4.png)
-
-
-This prompt you to create an `Access Keys` that should start with `ist-` and a lot of random characters. After configuring the script with your own "Bucket key" and running the script, it should pop-up a Bucket at the left menu. If you click that Bucket, it should look like this: 
+This requires that you either buy InitialState or have 7-day trial available and created an account. When you are at the frontage of the app, you need to click in the top right and then click my settings. This prompt you to create an `Access Keys` that should start with `ist-` and a lot of random characters. After configuring the script with your own "Bucket key" and running the script, it should pop-up a Bucket at the left menu. If you click that Bucket, it should look like this: 
 
 ![C__Users_micha_My Drive_ObsidianMD_Pasted image 20211126115619](https://user-images.githubusercontent.com/60610137/144414208-bcec8fd4-0a0c-463a-be67-b387bd3ad75b.png)
 
