@@ -1,7 +1,7 @@
 # IS-311 : Plants and sensors
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![Raspberry Pi](https://img.shields.io/badge/-RaspberryPi-C51A4A?style=for-the-badge&logo=Raspberry-Pi) ![Made with love in Norway](https://madewithlove.now.sh/no?heart=true&template=for-the-badge&text=Norway)
 
-Welcome to a small Raspberry Pi project that was part of the IS-311 course. This guide will show you step by step how to configure your Raspberry Pi to get data inside a IoT dashboard. There are some technical prerequisite before using this guide. Example: Know how to use terminal, know how to edit code and general knowledge about Raspberry Pi. 
+Welcome to a small Raspberry Pi project that was part of the IS-311 course. This guide will show you step by step how to configure your Raspberry Pi to get data locally to an IoT dashboard. There are some technical prerequisite before using this guide. Example: Know how to use terminal, know how to edit code and general knowledge about Raspberry Pi. 
 
 *Note - This project used Raspberry Pi 3 instead of Zero, due to not having some of the parts necessary.*
 
@@ -140,6 +140,12 @@ This is done by right-clicking the *tile* and choosing edit tile. if you want it
 
 ![C__Users_micha_My Drive_ObsidianMD_Pasted image 20211126115853](https://user-images.githubusercontent.com/60610137/144414407-0199fff1-dcd8-4867-9060-e4eee25c49be.png)
 
+## Running the script
+If everything is working as intended, it is finally the time to run the script! `CD` to the place where you downloaded the repository and write:
+```
+python3 plantsiot.py
+```
+This should show you what the moisture and temperature, and what is sent to the database.
 
 
 
