@@ -30,7 +30,7 @@ while True:
 # Reads the moisture level through capacitive touch pad
     moisture = ss.moisture_read()
 # Formats the input from 200-2000 range to % for readability
-    moisture_p = format(moisture / 20)
+    moisture_p = format(moisture / 200)
 
 # Reads the temperature from the temperature sensor 
     temp = ss.get_temp()
