@@ -1,7 +1,7 @@
 # IS-311 : Plants and sensors
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![Raspberry Pi](https://img.shields.io/badge/-RaspberryPi-C51A4A?style=for-the-badge&logo=Raspberry-Pi) ![Made with love in Norway](https://madewithlove.now.sh/no?heart=true&template=for-the-badge&text=Norway)
 
-Welcome to a small Raspberry Pi project that was part of the IS-311 course. This guide will show you step by step how to configure your Raspberry Pi to get data locally to an IoT dashboard. There are some technical prerequisite before using this guide. Example: Know how to use terminal, know how to edit code and general knowledge about Raspberry Pi. 
+Welcome to a small Raspberry Pi project that was part of the IS-311 course. This guide will show you step by step how to configure your Raspberry Pi to get data locally to an IoT dashboard. There are some technical prerequisite before using this guide. Example: know how to use terminal, know how to edit code and general knowledge about Raspberry Pi. 
 
 *Note - This project used Raspberry Pi 3 instead of Zero, due to not having some of the parts necessary.*
 
