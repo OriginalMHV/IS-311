@@ -71,7 +71,8 @@ $ sudo pip3 install ISStreamer
 ## Setup the sensors
 The figure down below shows how to connect the sensors. The left one is for moisture sensor and the right is for ambient light. The orientation is IO should be phasing down.
 
-![C__Users_micha_My Drive_ObsidianMD_Pasted image 20211126113646](https://user-images.githubusercontent.com/60610137/144413873-417f27e1-9f8c-45d9-8969-9c2183a98487.png)
+
+![Untitled Diagram](https://user-images.githubusercontent.com/60610137/145117474-b0772beb-6037-48b3-8e0d-c6fb1e892b51.jpg)
 
 
 ## Configure the to get the data
