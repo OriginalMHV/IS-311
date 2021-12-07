@@ -1,11 +1,13 @@
 # IS-311 : Plants and sensors
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![Raspberry Pi](https://img.shields.io/badge/-RaspberryPi-C51A4A?style=for-the-badge&logo=Raspberry-Pi) ![Made with love in Norway](https://madewithlove.now.sh/no?heart=true&template=for-the-badge&text=Norway)
 
-Welcome to a small Raspberry Pi project that was part of the IS-311 course. This guide will show you step by step how to configure your Raspberry Pi to get data locally to an IoT dashboard. There are some technical prerequisite before using this guide. Example: know how to use terminal, know how to edit code and general knowledge about Raspberry Pi. 
+Welcome to a small Raspberry Pi project that was part of the IS-311 course. This guide will show you step by step how to configure your Raspberry Pi to get sensor data stored locally and to an IoT dashboard. There are some technical prerequisite before using this guide. Example: know how to use terminal, edit code and general knowledge about Raspberry Pi & IT. 
 
 *Note - This project used Raspberry Pi 3 instead of Zero, due to not having some of the parts necessary.*
 
 Thanks to [InitialState](https://medium.com/initial-state/how-to-use-a-soil-moisture-sensor-to-keep-your-plants-alive-51a2294b88e) for guide.
+
+## List of libraries & components
 
 | Libraries used                |
 | ----------------------------- |
@@ -114,7 +116,7 @@ sudo mysql -u root -p
 You can now run the SQL-script that is included in the repository (plantsiodb.sql).
 
 
-## InitialState setup
+# InitialState setup
 This requires that you either buy InitialState or have 7-day trial available and created an account. When you are at the frontage of the app, you need to click in the top right and then click my settings. This prompt you to create an `Access Keys` that should start with `ist-` and a lot of random characters. After configuring the script with your own "Bucket key" and running the script, it should pop-up a Bucket at the left menu. If you click that Bucket, it should look like this: 
 
 ![C__Users_micha_My Drive_ObsidianMD_Pasted image 20211126115619](https://user-images.githubusercontent.com/60610137/144414208-bcec8fd4-0a0c-463a-be67-b387bd3ad75b.png)
