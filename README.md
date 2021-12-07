@@ -69,7 +69,7 @@ $ sudo pip3 install ISStreamer
 
 # Raspberry Pi 3 setup
 ## Setup the sensors
-The figure down below shows how to connect the sensors. The white dot is for the white cable. 
+The figure down below shows how to connect the sensors. Both the moisture and ambient light sensor could be found inside the diagrams folder, these models/diagrams have a larger resolution. *Note - The white dot is for the white cable.*
 
 ![Untitled Diagram (1)](https://user-images.githubusercontent.com/60610137/145117583-fab488d8-14e1-4864-ad3d-873d9a037396.jpg)
 
