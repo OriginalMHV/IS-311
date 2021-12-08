@@ -99,17 +99,17 @@ If it does not show up, try to reconfigure or re-seat the sensor connectors. If 
 ## Setup the database
 This is needed if store the data locally. Use the following commands in the terminal:
 ```
-sudo apt install mariadb-server
+$ sudo apt install mariadb-server
 ```
 
 If you want to have an secure database, you need to install `mysql_secure_installation`. Answer `Y` to all the prompts. *This will make it harder to access the database.*
 ```
-sudo mysql_secure_installation
+$ sudo mysql_secure_installation
 ```
 
 After everything is installed, you can now login to the database with:
 ```
-sudo mysql -u root -p
+$ sudo mysql -u root -p
 ```
 
 You can now run the SQL-script that is included in the repository (plantsiodb.sql).
@@ -139,7 +139,7 @@ This is done by right-clicking the *tile* and choosing edit tile. if you want it
 ## Running the script
 If everything is working as intended, it is finally the time to run the script! `CD` to the place where you downloaded the repository and write:
 ```
-python3 plantsiot.py
+$ python3 plantsiot.py
 ```
 This should show you what the moisture and temperature, and what is sent to the database.
 
